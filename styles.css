@@ -94,15 +94,6 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 	color: #FF0000;
 }
 
-.confirmation {
-	font-size: 14px;
-	font-weight: bold;
-	color: #000000;
-	border: 3px solid #666666;
-	padding: 5px;
-	text-align: center; 
-}
-
 .bodystyle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -157,11 +148,6 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 .moduleEntryDetails {
 	font-size: 11px;
 	margin-bottom: 5px;
-	color: #444;
-}
-.moduleEntrySpecifics {
-	font-size: 11px;
-	margin-bottom: 1px;
 	color: #444;
 }
 
@@ -279,12 +265,6 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 	padding: 0px 0px 5px 0px;
 	border-bottom: 1px dashed #CCC;
 	margin-bottom: 10px;
-	font-size: 14px;
-	font-weight: bold;
-	color: #CC6633;
-}
-
-.SubTitle {
 	font-size: 14px;
 	font-weight: bold;
 	color: #CC6633;
@@ -432,10 +412,9 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 	background-color: #FFFFFF;
 	width: 425px;
 	height: 350px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	border: 1px solid #CCC;
 }
 
@@ -454,9 +433,9 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 .watchDescription {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	padding: 10px 0px 5px 0px;
+	padding-bottom: 5px;
 	color: #000;
-	border-top: 1px dotted #CCCCCC;
+	border-bottom: 1px dashed #CCC;
 }
 
 .watchTags {
@@ -469,7 +448,7 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 .watchAdded {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	color: #333333;
 }
 
@@ -492,19 +471,7 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 	border-bottom: 1px dashed #999999;
 
 }
-.BoxedBorderTable {
-	padding-left: 10px;
-	border-top: 1px solid #CCCCCC;
-	border-bottom: 1px solid #CCCCCC;
-	border-right: 1px solid #CCCCCC;
-	border-left: 1px solid #CCCCCC;
-}
-.vertLeftDashTable {
-	border-left: 1px dashed #CCCCCC;
-	background-image: url('img/long_grad_bg.jpg');
-	background-repeat: repeat-x;
-	background-repeat: repeat-y;
-}
+
 .commentsEntry {
 	font-size: 11px;
 	background-color: #FFFFCC;
@@ -541,167 +508,4 @@ a.title:hover {font-family: Arial, Helvetica, sans-serif; color: #CCFFFF; font-s
 	padding-right: 10px; 
 	padding-top: 10px; 
 	padding-bottom: 10px;
-}
-
-.standoutLabel {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	color: #000000;
-}	
-.brightLabel {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	color: #FFFFFF;
-}	
-
-#set_of_links {
-	position:relative;
-	padding:none;
-	border:none;
-	background:#ffffff;
-	margin-bottom:20px
-}
-#set_of_links a {
-	display:inline;
-	padding:2px 9px 2px 9px;
-	text-decoration:none;
-	color: #000000;
-	background:#FFFFAA
-}
-#set_of_links a:hover {
-	background:#E1EAF0;
-	text-decoration:none
-}
-
-#set_of_links a span {
-	display:none
-}
-#set_of_links a:hover span {
-	display:inline;
-	position:absolute;
-	top:30;
-	left:0px;
-	background: #FFFFAA;
-	padding:5px 15px 5px 0
-}
-
-.SubscriptionTables {
-	border: none;
-}
-
-.SubscriptionTables td {
-	padding-top: 10px; 
-	padding-bottom: 10px;
-	padding-left: 1px;
-	padding-right: 1px; 
-	text-align:center; 
-	border-bottom: 1px dashed #666666;
-	color: #666666;
-}
-
-.SubscriptionVideos {
-	background-color:#FFFFFF; 
-	text-align: center;
-}
-
-.SubscriptionVideos td {
-	border-bottom: none;
-}
-
-.parentSection {
-	background: #FFFFCC;	
-}
-
-.parentSection td {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	padding-top: 5px;
-	padding-right: 2px;
-	padding-bottom: 5px;
-	margin-top: 1px;	
-}
-
-.childrenSection {
-	background: #FFFFFF;
-	border-bottom: 1px dashed #CCCCCC;		
-}
-
-.childrenSection td {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	padding-top: 5px;
-	padding-right: 2px;
-	padding-bottom: 5px;
-	margin-top: 1px;
-}
-
-.parentSection td {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	padding-top: 5px;
-	padding-right: 2px;
-	padding-bottom: 5px;
-	margin-top: 1px;	
-	border-bottom: 1px dashed #CCCCCC;		
-}
-
-.commentsSpecifics {
-	text-align: center;
-}
-
-.userStats {
-	padding-top: 5px;
-}
-
-.devIndent {
-	margin-left: 15px; 
-	margin-right: 15px; 
-	padding-top: 15px; 
-	padding-bottom: 15px;
-}
-
-.apiShadedBox {
-	background-color: #E5ECF9; 
-	padding-left: 5px; 
-	padding-right: 5px; 
-	padding-top: 5px; 
-	padding-bottom: 5px;
-}
-
-.apiDef {
-	margin-left: 25px;
-}
-
-.apiHeader {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	color: #AA0000;
-}
-
-
-/* msolo remix */
-.roundedTable {
-	margin: 0px 0px 1em 0px;
-}
-
-.sunkenTitle {
-	font-size: 14px;
-	font-weight: bold;
-	margin: 0px 0px 5px 5px;
-}
-
-.sunkenTitleBar {
-	width: 100%;
-	border-bottom: 1px dashed #999;
-}
-
-.sunkenContent {
-	background-color: #ddd;
-	background-image: url('img/table_results_bg.gif');
-	background-position: left top;
-	background-repeat: repeat-x;
-	padding: 10px;
 }
