@@ -10,3 +10,4 @@ made by these cool dudes:
 * MarkMrGamer (goom)
 * frickinfire
 * toloman63
+* logo by evodesign
